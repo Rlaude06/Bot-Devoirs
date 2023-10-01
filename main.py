@@ -25,7 +25,7 @@ headers = {
 }
 
 #Slack
-channel_id = "C05V1309DCZ" # dev : C05V1309DCZ, main : C05UEQC8S6A
+channel_id = "C05UEQC8S6A" # dev : C05V1309DCZ, main : C05UEQC8S6A
 client_user = slack.WebClient(token=user_token)
 client_bot = slack.WebClient(token=bot_token)
 
@@ -50,7 +50,6 @@ phrases_motivantes = [
     "Révisez avec passion! 🔥",
     "Foncez vers le succès! 🚀",
     "Devoirs? À vous de jouer! 📚",
-    "Sois brillant aujourd'hui! ✨",
     "Révisez, triomphez, répétez! 📝",
     "Devoirs terminés, sourire activé! 😊",
     "Rien n'arrête un étudiant motivé! 🎓",
@@ -59,14 +58,76 @@ phrases_motivantes = [
     "Soyez curieux, apprenez toujours! 🌟",
     "Devoirs faits, superhéros reposé! 🦸‍♂️",
     "La réussite vous attend, foncez! 🏆",
-    "Révisez avec joie, réussissez toujours! 😄",
     "Petits pas, grandes victoires! 👣",
     "Étudiez dur, rêvez grand! 🌌",
     "Votre avenir commence maintenant! 🌈",
     "La persévérance mène à l'excellence! 🌟",
     "Visez haut, atteignez loin! 🚀",
-    "Les rêves deviennent réalité! ✨"
+    "Révisez, ça vaut le coup! 💡",
+    "C'est l'heure du cerveau! 🧠",
+    "Devoirs = Pouvoir! 💪",
+    "Devoirs, défiez-vous! 🎯",
+    "Révisez avec un clin d'œil! 😉",
+    "Devoirs: votre super-pouvoir! 💥",
+    "Luttez avec les devoirs! 🥋",
+    "Révisez, c'est magique! 🎩",
+    "Soyez génial, révisez maintenant! 👍",
+    "Devoirs = Victoire! 🏆",
+    "Révisez en dansant! 💃",
+    "Devoirs: un jeu d'enfant! 🎮",
+    "Devoirs? Défiez-les avec un sourire! 😊",
+    "Révisez comme si le café était en danger! ☕️",
+    "Devoirs: domptez-les comme un pro! 🎩",
+    "Révisez aujourd'hui, brillez demain! ✨",
+    "Les devoirs sont votre ticket vers le succès! 🎫",
+    "Devoirs = Défi accepté! 💪",
+    "Devoirs: battez-les avec votre intelligence! 🧠",
 ]
+
+debut_messages = [
+    "Hello les amis! 😊",
+    "Hey les étudiants! 📚",
+    "Yo la team! 👋",
+    "Salut les cerveaux! 🧠",
+    "Hello tout le monde! 🌟",
+    "Coucou les apprentis! 🎓",
+    "Salut les bosseurs! 💪",
+    "Hello les génies! 🚀",
+    "Hey les ptits potes! 😄",
+    "Coucou la gang! 🤗",
+    "Bonjour les cracks! 👍",
+    "Salut les travailleurs! 💼",
+    "Hello la fam! ❤️",
+    "Yo les champions! 🏆",
+    "Salut les apprenants! 📖",
+    "Hello les têtes pensantes! 🤔",
+    "Hey la famille! 👨‍👩‍👧‍👦"
+]
+
+introduction_messages = [
+    "Les devoirs attendent, mettez-vous au travail! 💪",
+    "Révisons ensemble pour briller demain! 📚",
+    "Temps de se plonger dans les devoirs! 🎓",
+    "Révisez avec passion, succès assuré! 🔥",
+    "Les devoirs nous attendent, commençons! 📝",
+    "Prêts pour une séance productive? 💼",
+    "Chaussez vos lunettes, c'est l'heure! 🤓",
+    "Devoirs appellent, ne les faites pas attendre! ⏳",
+    "Sortez vos stylos, c'est parti! ✒️",
+    "Révisons ensemble pour un avenir brillant! 🌟",
+    "Les devoirs nous défient, relevons-les! 💪",
+    "Révisez avec enthousiasme, réussite assurée! 😊",
+    "Devoirs aujourd'hui, succès demain! 🌈",
+    "Révisez bien, rêvez en grand! 🚀",
+    "Prêts à conquérir les devoirs? 📚",
+    "Chaussez vos baskets, c'est l'heure! 👟",
+    "Devoirs nous appellent, répondons! 📖",
+    "Sortez vos cahiers, c'est parti! 📔",
+    "Révisons ensemble pour un avenir meilleur! 🌱",
+    "Les devoirs nous inspirent, commençons! 💡",
+    "Souriez, les devoirs sont là! 😊",
+]
+
 
 # after : > 
 # before : <
